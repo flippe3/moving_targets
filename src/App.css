@@ -1,0 +1,59 @@
+@font-face {
+  font-family: "segoe";
+  src: url(assets/Segoe\ UI.ttf);
+}
+
+body {
+  /* background: white;
+  font-family: 'Press Start 2P', cursive; */
+}
+.playArea {
+  border: 1px solid gray;
+  background-color: white;
+  padding-left: 0;
+  padding-right: 0;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  border-radius: 5px;
+  /* color: magenta; */
+  /* width: 585px; */
+  /* height: 440px; */
+  /* position: fixed; */
+  /* top: 43.2%; */
+  /* left: 50%; */
+  /* transform: translate(-50%, -50%); */
+}
+#fruit {
+  display: none;
+}
+
+#answer0, #answer0_correct, #answer1, #answer1_correct, #answer2, #answer2_correct, #answer3, #answer3_correct, #answer4, #answer4_correct {
+  display: none;
+}
+
+.logo {
+  width: 100px;
+}
+
+#question {
+  border: 1px solid gray;
+  padding-left: 0;
+  padding-right: 0;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 3px;
+  display: block;
+  width: 350px;
+  border-radius: 5px;
+}
+
+h4 {
+  font-size: 14px;
+  text-align: center;
+  font-family: "segoe";
+}
+
+#ball,#finished {
+  display: none;
+}
